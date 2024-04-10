@@ -55,4 +55,12 @@ public class Aluno {
     public void setNascimento(Date nascimento) {
         this.nascimento = nascimento;
     }
+
+    public Date getDataHoraCadastro() {
+        return dataHoraCadastro;
+    }
+
+    public void setDataHoraCadastro(Date dataHoraCadastro) {
+        this.dataHoraCadastro = dataHoraCadastro;
+    }
 }
